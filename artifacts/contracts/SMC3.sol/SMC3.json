@@ -1,0 +1,98 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "SMC3",
+  "sourceName": "contracts/SMC3.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "getUserActionScore",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_like",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_share",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_post",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_comment",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_complete_view",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_multiple_view",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_download",
+          "type": "uint256"
+        }
+      ],
+      "name": "userActionBatching",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "user_action_score",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b50336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506040518060e001604052806001815260200160028152602001600a815260200160028152602001600281526020016002815260200160028152506002600082015181600001556020820151816001015560408201518160020155606082015181600301556080820151816004015560a0820151816005015560c082015181600601559050506101e1806100e56000396000f3fe608060405234801561001057600080fd5b506004361061004c5760003560e01c806377a0f85614610051578063814599971461006f5780638da5cb5b146100d9578063b792c2db1461010d575b600080fd5b61005961012b565b6040518082815260200191505060405180910390f35b6100d7600480360360e081101561008557600080fd5b8101908080359060200190929190803590602001909291908035906020019092919080359060200190929190803590602001909291908035906020019092919080359060200190929190505050610131565b005b6100e161017d565b604051808273ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6101156101a1565b6040518082815260200191505060405180910390f35b60015481565b6002600601548102600260050154830260026004015485026002600301548702600280015489026002600101548b026002600001548d0201010101010160018190555050505050505050565b60008054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600060015490509056fea26469706673582212204467558e427de0e6ca050ec3a1d7139bbd8e47bee73cb71ecba934d8c262ad6664736f6c63430007030033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061004c5760003560e01c806377a0f85614610051578063814599971461006f5780638da5cb5b146100d9578063b792c2db1461010d575b600080fd5b61005961012b565b6040518082815260200191505060405180910390f35b6100d7600480360360e081101561008557600080fd5b8101908080359060200190929190803590602001909291908035906020019092919080359060200190929190803590602001909291908035906020019092919080359060200190929190505050610131565b005b6100e161017d565b604051808273ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6101156101a1565b6040518082815260200191505060405180910390f35b60015481565b6002600601548102600260050154830260026004015485026002600301548702600280015489026002600101548b026002600001548d0201010101010160018190555050505050505050565b60008054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600060015490509056fea26469706673582212204467558e427de0e6ca050ec3a1d7139bbd8e47bee73cb71ecba934d8c262ad6664736f6c63430007030033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
